@@ -1,35 +1,22 @@
 <div class="card-container">
-  <a class="circle-link" title="Animations" href="https://angular.io/guide/animations" target="_blank" rel="noopener">
+  <a class="circle-link" title="Animations" href="">
     <img src="/assets/img/instagram.svg" alt="">
   </a>
 
-  <a class="circle-link" title="CLI" href="https://cli.angular.io/" target="_blank" rel="noopener">
+  <a class="circle-link" title="CLI" href="">
     <img src="/assets/img/twitter.svg" alt="">
   </a>
 
-  <a class="circle-link" title="Augury" href="https://augury.rangle.io/" target="_blank" rel="noopener">
+  <a class="circle-link" title="Augury" href="">
     <img src="/assets/img/facebook.svg" alt="">
   </a>
 
-  <!-- <a class="circle-link" title="Protractor" href="https://www.protractortest.org/" target="_blank" rel="noopener">
-    <img src="/assets/img/whatsapp.svg" alt="">
-  </a>
-
-  <a class="circle-link" title="Find a Local Meetup" href="https://www.meetup.com/find/?keywords=angular"
-    target="_blank" rel="noopener">
-    <img src="/assets/img/whatsapp.svg" alt="">
-  </a>
-
-  <a class="circle-link" title="Join the Conversation on Gitter" href="https://gitter.im/angular/angular"
-    target="_blank" rel="noopener">
-    <img src="/assets/img/whatsapp.svg" alt="">
-  </a> -->
 </div>
 
-
+<h2>Scroll Down To See More Post</h2>
 <div class="container">
-  <div class="postcard " data-aos="fade-left">
-    <div class="ca" *ngFor="let d of posts">
+  <div class="postcard ">
+    <div class="ca" *ngFor="let d of posts" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
       <a class="card4 circle-link" href="#">
 
         <h3>{{d.title}}</h3>
